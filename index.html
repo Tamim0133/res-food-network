@@ -7,9 +7,83 @@
     <title>Responsive food network</title>
     <!-- css style sheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- adding font style  -->
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap");
+      .heading {
+        padding-top: 105px;
+      }
+
+      body {
+        font-family: "Montserrat", sans-serif;
+      }
+      .orange {
+        color: orange;
+      }
+      .second {
+        background-image: url(images/shapes/7.png);
+        background-repeat: no-repeat;
+        height: 600px;
+      }
+     
+      .width {
+        width: 338px;
+        height: 536px;
+        position: relative;
+        top: 70px;
+      }
+      .jhamela{
+          padding-left: 280px;
+          position: relative;
+          top: 70px;
+      }
+      .jhamela:hover{
+          transform: scaleX(1.1) ;
+          transition: transform 1s ease-in-out;
+      }
+    </style>
   </head>
   <body>
-    <h1>HI my name isa tamim</h1>
+    <!-- first part start -->
+    <section class="container-fluid d-flex mt-5">
+      <div>
+        <h1 class="heading ms-5 mt-5 fs-1 fw-bolder">
+          <span class="orange">Skip</span> The Diet,<br />
+          Just Eat Healthy <br />
+          With Food Network
+        </h1>
+        <p class="m-5">
+          Imagine you don't need a diet because we provide <br />
+          healthy and delicious food for you !
+        </p>
+        <button class="ms-4 py-3 px-5 rounded-pill btn btn-warning">
+          Order Now
+        </button>
+      </div>
+      <div class="ms-5">
+        <img class="w-100 ms-5" src="images/female/photo1.png" alt="" />
+      </div>
+    </section>
+    <br />
+    <br />
+    <!-- first part end -->
+    <!-- making the second part -->
+
+    <section class="container-fluid d-flex mt-5 second">
+      <div class="ms-5">
+        <img class="width ms-5" src="images/female/photo2.png" alt="" />
+      </div>
+      <div>
+        <h2 class="ms-5 mt-5 fs-1 fw-bolder"></h2>
+        <p class="m-5 w-75 ps-5 text-center position-relative top-50">
+          Hi, I am Tamim. Don't fall for my picture. I am a college student. I
+          have made this website jsut to make healthy food available in your
+          home.If you want you can directly contact me at the below to get any
+          kind of information regarding my website.
+        <div class="jhamela" ><button class="ms-4 py-3 px-5 rounded-end btn btn-outline-danger">contact Me</button></div>
+      </div>
+    </section>
     <!-- javascrip style sheet  -->
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
